@@ -68,6 +68,9 @@ func (s *SyncCommittee) UnmarshalJSON(input []byte) error {
 	if syncCommitteeJSON.Validators == nil {
 		return errors.New("validators missing")
 	}
+	if len(syncCommitteeJSON.Validators) == 0 {
+		return errors.New("validators length cannot be 0")
+	}
 	s.Validators = make([]phase0.ValidatorIndex, len(syncCommitteeJSON.Validators))
 	for i := range syncCommitteeJSON.Validators {
 		validator, err := strconv.ParseUint(syncCommitteeJSON.Validators[i], 10, 64)
@@ -78,9 +81,6 @@ func (s *SyncCommittee) UnmarshalJSON(input []byte) error {
 	}
 	if syncCommitteeJSON.ValidatorAggregates == nil {
 		return errors.New("validator aggregates missing")
-	}
-	if len(syncCommitteeJSON.ValidatorAggregates) == 0 {
-		return errors.New("validator aggregates length cannot be 0")
 	}
 	s.ValidatorAggregates = make([][]phase0.ValidatorIndex, len(syncCommitteeJSON.ValidatorAggregates))
 	for i := range syncCommitteeJSON.ValidatorAggregates {
