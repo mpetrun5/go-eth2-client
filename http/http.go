@@ -300,7 +300,7 @@ func (s *Service) get(ctx context.Context, endpoint string, opts *api.CommonOpts
 }
 
 func populateConsensusVersion(res *httpResponse, resp *http.Response) error {
-	res.consensusVersion = spec.DataVersionUnknown
+	res.consensusVersion = spec.DataVersionCapella
 	respConsensusVersions, exists := resp.Header["Eth-Consensus-Version"]
 	if !exists {
 		// No consensus version supplied in response; obtain it from the body if possible.
@@ -313,8 +313,8 @@ func populateConsensusVersion(res *httpResponse, resp *http.Response) error {
 		if err := json.Unmarshal(res.body, &metadata); err != nil {
 			return errors.Wrap(err, "no consensus version header and failed to parse response")
 		}
-		res.consensusVersion = metadata.Version
 
+		res.consensusVersion = metadata.Version
 		return nil
 	}
 	if len(respConsensusVersions) != 1 {
