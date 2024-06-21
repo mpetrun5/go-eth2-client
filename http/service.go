@@ -125,10 +125,12 @@ func New(ctx context.Context, params ...Parameter) (eth2client.Service, error) {
 	// Periodially refetch static values in case of client update.
 	s.periodicClearStaticValues(ctx)
 
+	/*
 	// Handle connection to DVT middleware.
 	if err := s.checkDVT(ctx); err != nil {
 		return nil, errors.Wrap(err, "failed to check DVT connection")
 	}
+	*/
 
 	// Close the service on context done.
 	go func(s *Service) {
