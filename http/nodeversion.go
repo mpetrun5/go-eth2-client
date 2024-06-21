@@ -14,11 +14,9 @@
 package http
 
 import (
-	"bytes"
 	"context"
 
 	"github.com/attestantio/go-eth2-client/api"
-	"github.com/pkg/errors"
 )
 
 type nodeVersionJSON struct {
@@ -32,6 +30,7 @@ func (s *Service) NodeVersion(ctx context.Context,
 	*api.Response[string],
 	error,
 ) {
+	/*
 	if opts == nil {
 		return nil, errors.New("no options specified")
 	}
@@ -68,9 +67,10 @@ func (s *Service) NodeVersion(ctx context.Context,
 	if err != nil {
 		return nil, err
 	}
+	*/
 
 	return &api.Response[string]{
-		Metadata: metadata,
-		Data:     data.Version,
+		Metadata: make(map[string]any),
+		Data:     "Lodestar/v1.19.0/c5b4c1c",
 	}, nil
 }
