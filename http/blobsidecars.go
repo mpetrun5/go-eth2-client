@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/attestantio/go-eth2-client/api"
-	"github.com/attestantio/go-eth2-client/spec/deneb"
+	"github.com/mpetrun5/go-eth2-client/api"
+	"github.com/mpetrun5/go-eth2-client/spec/deneb"
 	"github.com/pkg/errors"
 )
 

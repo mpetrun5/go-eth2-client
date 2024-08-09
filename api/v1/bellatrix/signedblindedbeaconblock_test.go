@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/attestantio/go-eth2-client/api/v1/bellatrix"
 	"github.com/goccy/go-yaml"
+	"github.com/mpetrun5/go-eth2-client/api/v1/bellatrix"
 	"github.com/stretchr/testify/assert"
 	require "github.com/stretchr/testify/require"
 )

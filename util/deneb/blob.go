@@ -13,7 +13,7 @@
 
 package deneb
 
-import "github.com/attestantio/go-eth2-client/spec/deneb"
+import "github.com/mpetrun5/go-eth2-client/spec/deneb"
 
 // BeaconBlockBlob provides information about blobs.
 type BeaconBlockBlob struct {

@@ -17,10 +17,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/attestantio/go-eth2-client/spec/capella"
 	"github.com/goccy/go-yaml"
-	require "github.com/stretchr/testify/require"
+	"github.com/mpetrun5/go-eth2-client/spec/capella"
 	"github.com/stretchr/testify/assert"
+	require "github.com/stretchr/testify/require"
 )
 
 func TestHistoricalSummaryYAML(t *testing.T) {

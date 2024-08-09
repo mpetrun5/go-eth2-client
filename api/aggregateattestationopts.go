@@ -13,7 +13,7 @@
 
 package api
 
-import "github.com/attestantio/go-eth2-client/spec/phase0"
+import "github.com/mpetrun5/go-eth2-client/spec/phase0"
 
 // AggregateAttestationOpts are the options for obtaining aggregate attestations.
 type AggregateAttestationOpts struct {

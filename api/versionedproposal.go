@@ -14,13 +14,13 @@
 package api
 
 import (
-	apiv1deneb "github.com/attestantio/go-eth2-client/api/v1/deneb"
-	"github.com/attestantio/go-eth2-client/spec"
-	"github.com/attestantio/go-eth2-client/spec/altair"
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/capella"
-	"github.com/attestantio/go-eth2-client/spec/deneb"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	apiv1deneb "github.com/mpetrun5/go-eth2-client/api/v1/deneb"
+	"github.com/mpetrun5/go-eth2-client/spec"
+	"github.com/mpetrun5/go-eth2-client/spec/altair"
+	"github.com/mpetrun5/go-eth2-client/spec/bellatrix"
+	"github.com/mpetrun5/go-eth2-client/spec/capella"
+	"github.com/mpetrun5/go-eth2-client/spec/deneb"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 )
 
 // VersionedProposal contains a versioned proposal.

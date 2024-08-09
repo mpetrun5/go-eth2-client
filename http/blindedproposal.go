@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/attestantio/go-eth2-client/api"
-	apiv1bellatrix "github.com/attestantio/go-eth2-client/api/v1/bellatrix"
-	apiv1capella "github.com/attestantio/go-eth2-client/api/v1/capella"
-	apiv1deneb "github.com/attestantio/go-eth2-client/api/v1/deneb"
-	"github.com/attestantio/go-eth2-client/spec"
+	"github.com/mpetrun5/go-eth2-client/api"
+	apiv1bellatrix "github.com/mpetrun5/go-eth2-client/api/v1/bellatrix"
+	apiv1capella "github.com/mpetrun5/go-eth2-client/api/v1/capella"
+	apiv1deneb "github.com/mpetrun5/go-eth2-client/api/v1/deneb"
+	"github.com/mpetrun5/go-eth2-client/spec"
 	"github.com/pkg/errors"
 	"go.opentelemetry.io/otel"
 )

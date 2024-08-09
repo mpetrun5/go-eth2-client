@@ -18,7 +18,7 @@ import (
 	"context"
 	"encoding/json"
 
-	apiv1 "github.com/attestantio/go-eth2-client/api/v1"
+	apiv1 "github.com/mpetrun5/go-eth2-client/api/v1"
 	"github.com/pkg/errors"
 )
 

@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/api"
-	"github.com/attestantio/go-eth2-client/mock"
-	"github.com/attestantio/go-eth2-client/testclients"
+	consensusclient "github.com/mpetrun5/go-eth2-client"
+	"github.com/mpetrun5/go-eth2-client/api"
+	"github.com/mpetrun5/go-eth2-client/mock"
+	"github.com/mpetrun5/go-eth2-client/testclients"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 )

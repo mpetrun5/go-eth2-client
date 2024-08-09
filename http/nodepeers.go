@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/attestantio/go-eth2-client/api"
-	apiv1 "github.com/attestantio/go-eth2-client/api/v1"
+	"github.com/mpetrun5/go-eth2-client/api"
+	apiv1 "github.com/mpetrun5/go-eth2-client/api/v1"
 )
 
 // NodePeers obtains the peers of a node.

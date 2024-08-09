@@ -16,9 +16,9 @@ package multi
 import (
 	"context"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/api"
-	"github.com/attestantio/go-eth2-client/spec"
+	consensusclient "github.com/mpetrun5/go-eth2-client"
+	"github.com/mpetrun5/go-eth2-client/api"
+	"github.com/mpetrun5/go-eth2-client/spec"
 )
 
 // SignedBeaconBlock fetches a signed beacon block given a block ID.

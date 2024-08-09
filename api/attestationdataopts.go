@@ -13,7 +13,7 @@
 
 package api
 
-import "github.com/attestantio/go-eth2-client/spec/phase0"
+import "github.com/mpetrun5/go-eth2-client/spec/phase0"
 
 // AttestationDataOpts are the options for obtaining attestation data.
 type AttestationDataOpts struct {

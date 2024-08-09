@@ -13,7 +13,7 @@
 
 package api
 
-import "github.com/attestantio/go-eth2-client/spec/phase0"
+import "github.com/mpetrun5/go-eth2-client/spec/phase0"
 
 // ValidatorBalancesOpts are the options for obtaining validator balances.
 type ValidatorBalancesOpts struct {

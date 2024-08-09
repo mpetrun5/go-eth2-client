@@ -17,7 +17,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/attestantio/go-eth2-client/api"
+	"github.com/mpetrun5/go-eth2-client/api"
 	"github.com/pkg/errors"
 )
 

@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"testing"
 
-	api "github.com/attestantio/go-eth2-client/api/v1"
 	"github.com/goccy/go-yaml"
-	require "github.com/stretchr/testify/require"
+	api "github.com/mpetrun5/go-eth2-client/api/v1"
 	"github.com/stretchr/testify/assert"
+	require "github.com/stretchr/testify/require"
 )
 
 func TestValidatorRegistrationJSON(t *testing.T) {

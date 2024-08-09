@@ -16,7 +16,7 @@ package http
 import (
 	"context"
 
-	"github.com/attestantio/go-eth2-client/api"
+	"github.com/mpetrun5/go-eth2-client/api"
 )
 
 // SlotsPerEpoch provides the number of slots per epoch for the chain.

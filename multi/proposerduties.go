@@ -16,9 +16,9 @@ package multi
 import (
 	"context"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/api"
-	apiv1 "github.com/attestantio/go-eth2-client/api/v1"
+	consensusclient "github.com/mpetrun5/go-eth2-client"
+	"github.com/mpetrun5/go-eth2-client/api"
+	apiv1 "github.com/mpetrun5/go-eth2-client/api/v1"
 )
 
 // ProposerDuties obtains proposer duties for the given epoch.

@@ -16,8 +16,8 @@ package deneb
 import (
 	"fmt"
 
-	"github.com/attestantio/go-eth2-client/spec/deneb"
 	"github.com/goccy/go-yaml"
+	"github.com/mpetrun5/go-eth2-client/spec/deneb"
 )
 
 // BlockContents represents the contents of a block, both block and blob.

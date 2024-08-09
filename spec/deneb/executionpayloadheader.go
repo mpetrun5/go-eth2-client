@@ -16,10 +16,10 @@ package deneb
 import (
 	"fmt"
 
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/goccy/go-yaml"
 	"github.com/holiman/uint256"
+	"github.com/mpetrun5/go-eth2-client/spec/bellatrix"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 )
 
 // ExecutionPayloadHeader represents an execution layer payload header.

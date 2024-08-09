@@ -16,7 +16,7 @@ package mock
 import (
 	"context"
 
-	"github.com/attestantio/go-eth2-client/spec/altair"
+	"github.com/mpetrun5/go-eth2-client/spec/altair"
 )
 
 // SubmitSyncCommitteeMessages submits sync committee messages.

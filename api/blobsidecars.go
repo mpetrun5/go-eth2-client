@@ -14,8 +14,8 @@
 package api
 
 import (
-	"github.com/attestantio/go-eth2-client/spec/deneb"
 	ssz "github.com/ferranbt/fastssz"
+	"github.com/mpetrun5/go-eth2-client/spec/deneb"
 )
 
 // BlobSidecars is an API construct to allow decoding an array of blob sidecars.

@@ -13,7 +13,7 @@
 
 package api
 
-import "github.com/attestantio/go-eth2-client/spec/phase0"
+import "github.com/mpetrun5/go-eth2-client/spec/phase0"
 
 // AttestationPoolOpts are the options for obtaining the attestation pool.
 type AttestationPoolOpts struct {

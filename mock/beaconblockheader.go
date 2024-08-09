@@ -16,9 +16,9 @@ package mock
 import (
 	"context"
 
-	"github.com/attestantio/go-eth2-client/api"
-	apiv1 "github.com/attestantio/go-eth2-client/api/v1"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/mpetrun5/go-eth2-client/api"
+	apiv1 "github.com/mpetrun5/go-eth2-client/api/v1"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 )
 
 // BeaconBlockHeader provides the block header of a given block ID.

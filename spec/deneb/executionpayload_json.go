@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/attestantio/go-eth2-client/codecs"
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/capella"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/holiman/uint256"
+	"github.com/mpetrun5/go-eth2-client/codecs"
+	"github.com/mpetrun5/go-eth2-client/spec/bellatrix"
+	"github.com/mpetrun5/go-eth2-client/spec/capella"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
 )
 

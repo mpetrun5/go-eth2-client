@@ -16,10 +16,10 @@ package api
 import (
 	"time"
 
-	apiv1 "github.com/attestantio/go-eth2-client/api/v1"
-	"github.com/attestantio/go-eth2-client/spec"
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	apiv1 "github.com/mpetrun5/go-eth2-client/api/v1"
+	"github.com/mpetrun5/go-eth2-client/spec"
+	"github.com/mpetrun5/go-eth2-client/spec/bellatrix"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 )
 
 // VersionedValidatorRegistration contains a versioned ValidatorRegistrationV1.

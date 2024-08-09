@@ -16,10 +16,10 @@ package deneb
 import (
 	"fmt"
 
-	"github.com/attestantio/go-eth2-client/spec/altair"
-	"github.com/attestantio/go-eth2-client/spec/capella"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/goccy/go-yaml"
+	"github.com/mpetrun5/go-eth2-client/spec/altair"
+	"github.com/mpetrun5/go-eth2-client/spec/capella"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 	bitfield "github.com/prysmaticlabs/go-bitfield"
 )
 

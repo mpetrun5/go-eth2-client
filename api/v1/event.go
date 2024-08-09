@@ -17,8 +17,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/attestantio/go-eth2-client/spec/altair"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/mpetrun5/go-eth2-client/spec/altair"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
 )
 

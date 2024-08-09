@@ -20,13 +20,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/attestantio/go-eth2-client/spec/altair"
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
 	ssz "github.com/ferranbt/fastssz"
 	"github.com/goccy/go-yaml"
 	"github.com/golang/snappy"
 	clone "github.com/huandu/go-clone/generic"
+	"github.com/mpetrun5/go-eth2-client/spec/altair"
+	"github.com/mpetrun5/go-eth2-client/spec/bellatrix"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 	require "github.com/stretchr/testify/require"
 )
 

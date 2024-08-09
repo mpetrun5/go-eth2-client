@@ -4,7 +4,7 @@
 package deneb
 
 import (
-	"github.com/attestantio/go-eth2-client/spec/deneb"
+	"github.com/mpetrun5/go-eth2-client/spec/deneb"
 	ssz "github.com/ferranbt/fastssz"
 )
 

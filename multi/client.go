@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	consensusclient "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/api"
+	consensusclient "github.com/mpetrun5/go-eth2-client"
+	"github.com/mpetrun5/go-eth2-client/api"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 )

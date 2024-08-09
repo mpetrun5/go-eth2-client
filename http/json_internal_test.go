@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 	"github.com/stretchr/testify/require"
 )
 

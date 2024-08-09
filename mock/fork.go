@@ -16,8 +16,8 @@ package mock
 import (
 	"context"
 
-	"github.com/attestantio/go-eth2-client/api"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/mpetrun5/go-eth2-client/api"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 )
 
 // Fork fetches fork information for the given state.

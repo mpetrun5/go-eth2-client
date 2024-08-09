@@ -1,6 +1,6 @@
 package capella
 
-import "github.com/attestantio/go-eth2-client/spec/capella"
+import "github.com/mpetrun5/go-eth2-client/spec/capella"
 
 // ExecutionPayloadWithdrawals provides information about withdrawals.
 type ExecutionPayloadWithdrawals struct {

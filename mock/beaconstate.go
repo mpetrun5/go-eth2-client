@@ -16,9 +16,9 @@ package mock
 import (
 	"context"
 
-	"github.com/attestantio/go-eth2-client/api"
-	"github.com/attestantio/go-eth2-client/spec"
-	"github.com/attestantio/go-eth2-client/spec/phase0"
+	"github.com/mpetrun5/go-eth2-client/api"
+	"github.com/mpetrun5/go-eth2-client/spec"
+	"github.com/mpetrun5/go-eth2-client/spec/phase0"
 )
 
 // BeaconState fetches a beacon state given a state ID.

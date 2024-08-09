@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	eth2client "github.com/attestantio/go-eth2-client"
-	"github.com/attestantio/go-eth2-client/api"
-	"github.com/attestantio/go-eth2-client/auto"
+	eth2client "github.com/mpetrun5/go-eth2-client"
+	"github.com/mpetrun5/go-eth2-client/api"
+	"github.com/mpetrun5/go-eth2-client/auto"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 )
