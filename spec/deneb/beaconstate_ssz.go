@@ -214,8 +214,8 @@ func (b *BeaconState) MarshalSSZTo(buf []byte) (dst []byte, err error) {
 	}
 
 	// Field (9) 'ETH1DataVotes'
-	if size := len(b.ETH1DataVotes); size > 2048 {
-		err = ssz.ErrListTooBigFn("BeaconState.ETH1DataVotes", size, 2048)
+	if size := len(b.ETH1DataVotes); size > 1024 {
+		err = ssz.ErrListTooBigFn("BeaconState.ETH1DataVotes", size, 1024)
 		return
 	}
 	for ii := 0; ii < len(b.ETH1DataVotes); ii++ {
@@ -478,7 +478,7 @@ func (b *BeaconState) UnmarshalSSZ(buf []byte) error {
 	// Field (9) 'ETH1DataVotes'
 	{
 		buf = tail[o9:o11]
-		num, err := ssz.DivideInt2(len(buf), 72, 2048)
+		num, err := ssz.DivideInt2(len(buf), 72, 1024)
 		if err != nil {
 			return err
 		}
@@ -729,7 +729,7 @@ func (b *BeaconState) HashTreeRootWith(hh ssz.HashWalker) (err error) {
 	{
 		subIndx := hh.Index()
 		num := uint64(len(b.ETH1DataVotes))
-		if num > 2048 {
+		if num > 1024 {
 			err = ssz.ErrIncorrectListSize
 			return
 		}
@@ -738,7 +738,7 @@ func (b *BeaconState) HashTreeRootWith(hh ssz.HashWalker) (err error) {
 				return
 			}
 		}
-		hh.MerkleizeWithMixin(subIndx, num, 2048)
+		hh.MerkleizeWithMixin(subIndx, num, 1024)
 	}
 
 	// Field (10) 'ETH1DepositIndex'
